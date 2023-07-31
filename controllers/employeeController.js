@@ -16,7 +16,6 @@ router.post('/', (req, res) => {
         updateRecord(req, res);
 });
 
-
 function insertRecord(req, res) {
     var employee = new Employee();
     employee.fullName = req.body.fullName;
